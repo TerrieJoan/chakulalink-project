@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "869688641769",
+    "project_id": "chakulalink",
+    "storage_bucket": "chakulalink.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869688641769:android:2f92da33b9f338e4b6c878",
+        "android_client_info": {
+          "package_name": "com.chakulalink.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3Lb5GN-yhkQWjp1kTscs0eoVz-GoUqrk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

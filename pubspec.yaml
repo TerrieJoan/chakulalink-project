@@ -1,0 +1,80 @@
+name: chakulalink
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  google_maps_webservice: any
+  permission_handler: ^8.2.2
+  google_maps_flutter: ^2.0.3
+  cached_network_image: ^3.2.1
+  flutter_svg: ^1.1.6
+  flutter_switch: ^0.3.2
+  intl: ^0.17.0
+  firebase_core: ^2.19.0
+  firebase_auth: ^4.11.1
+  cloud_firestore: ^4.11.0
+  provider: ^5.0.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Gilroy
+      fonts: 
+        - asset: assets/fonts/GilroyMedium.ttf
+          weight: 500
+        - asset: assets/fonts/GilroySemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/GilroyRegular.ttf
+          weight: 400
+        - asset: assets/fonts/GilroyBold.ttf
+          weight: 700
+        - asset: assets/fonts/GilroyRegularItalic.ttf
+          weight: 400
+    - family: Roboto
+      fonts: 
+        - asset: assets/fonts/RobotoMedium.ttf
+          weight: 500
+        - asset: assets/fonts/RobotoRegular.ttf
+          weight: 400
+        - asset: assets/fonts/RobotoRomanSemiBold.ttf
+          weight: 600
+    - family: Inter
+      fonts: 
+        - asset: assets/fonts/InterRegular.ttf
+          weight: 400
+        - asset: assets/fonts/InterRegular.ttf
+          weight: 400
+    - family: Poppins
+      fonts: 
+        - asset: assets/fonts/PoppinsRegular.ttf
+          weight: 400
+    - family: SF Pro Text
+      fonts: 
+        - asset: assets/fonts/SFProTextRegular.ttf
+          weight: 400
+        - asset: assets/fonts/SFProTextBold.ttf
+          weight: 700
+    - family: Sarala
+      fonts: 
+        - asset: assets/fonts/SaralaBold.ttf
+          weight: 700
+    - family: Helvetica Neue
+      fonts: 
+        - asset: assets/fonts/HelveticaNeue.ttf
+          weight: 400
+    - family: Open Sans
+      fonts: 
+        - asset: assets/fonts/OpenSansRomanRegular.ttf
+          weight: 400
+    - family: Lato
+      fonts: 
+        - asset: assets/fonts/LatoBold.ttf
+          weight: 700
